@@ -16,7 +16,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css', media: 'print', onload: "this.media='all'" }
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css', media: 'print', onload: "this.media='all'" },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' }
     ]
   },
   /*
@@ -56,7 +58,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ['Work+Sans:400,500,700'] //Loads Lato font with weights 400 and 700
+      families: ['Work+Sans:400,500,700&display=swap'] //Loads Work Sans font with weights 400 and 700
     }
   },
   /*
