@@ -3,7 +3,7 @@
     <button
       @click="open"
       class="h-full w-full relative bg-cover bg-no-repeat bg-center group rounded-lg shadow-xl"
-      :style="`background-image:url(/images/${image || 'default.jpg'})`"
+      :style="`background-image:url(/images/${image || 'default.jpg?webp'})`"
     >
       <div
         class="rounded-lg group-hover:opacity-100 opacity-0 absolute inset-0 bg-green-transparent transition duration-300 flex flex-col items-center justify-center"

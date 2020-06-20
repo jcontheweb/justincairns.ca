@@ -1,7 +1,7 @@
 [
     {      
         "type": "full-time",
-        "image": "sb-thumbnail.png",
+        "image": "sb-thumbnail.png?webp",
         "title": "Ticketing Platform",
         "company": "Agency",
         "technology": [
@@ -19,9 +19,9 @@
             "Performed accessibility audits to ensure WCAG were met"
         ],
         "displays": [
-            "sb-1.png",
-            "sb-2.png",
-            "sb-3.png"
+            "sb-1.png?webp",
+            "sb-2.png?webp",
+            "sb-3.png?webp"
         ]
     },
     {   
@@ -44,15 +44,15 @@
             "Performed accessibility audits to ensure WCAG were met"
         ],
         "displays": [
-            "homa-1.png",
-            "homa-2.png",
-            "homa-3.png"
+            "homa-1.png?webp",
+            "homa-2.png?webp",
+            "homa-3.png?webp"
         ]
     },
     {   
         "type": "freelance",
         "url": "https://truenorthmovers.com/",
-        "image": "tnm-thumbnail.png",
+        "image": "tnm-thumbnail.png?webp",
         "title": "Moving Company",
         "company": "True North Movers",
         "technology": [
@@ -66,9 +66,9 @@
             "Created everything on site and managed updates until mid 2019"
         ],
         "displays": [
-            "tnm-1.png",
-            "tnm-2.png",
-            "tnm-3.png"
+            "tnm-1.png?webp",
+            "tnm-2.png?webp",
+            "tnm-3.png?webp"
         ]
     },
     {   
@@ -87,9 +87,9 @@
             "Handled the entirety of front-end development"
         ],
         "displays": [
-            "le-1.png",
-            "le-2.png",
-            "le-3.png"
+            "le-1.png?webp",
+            "le-2.png?webp",
+            "le-3.png?webp"
         ]
     }
 ]
