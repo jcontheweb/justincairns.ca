@@ -1,0 +1,95 @@
+[
+    {      
+        "type": "full-time",
+        "image": "sb-thumbnail.png",
+        "title": "Ticketing Platform",
+        "company": "Agency",
+        "technology": [
+            "javascript",
+            "vuejs",
+            "laravel",
+            "html5",
+            "css3",
+            "wordpress"
+        ],
+        "description": "A fully featured purchase path for a prestigious theatre based in London, UK. Includes - select seats from a seatmap, display events in a calendar, add items to a basket, checkout, process payment",
+        "contributions": [
+            "Created and implemented a reuseable front-end component library",
+            "Tested UI components using Storybook.js",
+            "Performed accessibility audits to ensure WCAG were met"
+        ],
+        "displays": [
+            "sb-1.png",
+            "sb-2.png",
+            "sb-3.png"
+        ]
+    },
+    {   
+        "type": "full-time",
+        "image": "homa-thumbnail.jpg",
+        "title": "Museum / Booking",
+        "company": "Agency",
+        "technology": [
+            "javascript",
+            "vuejs",
+            "laravel",
+            "html5",
+            "css3",
+            "wordpress"
+        ],
+        "description": "A sleek Vue/Nuxt SPA that uses a REST API to serve WordPress content to the front-end. Also includes an event, calendar, and booking system.",
+        "contributions": [
+            "Created and implemented a reuseable front-end component library",
+            "Tested UI components using Storybook.js",
+            "Performed accessibility audits to ensure WCAG were met"
+        ],
+        "displays": [
+            "homa-1.png",
+            "homa-2.png",
+            "homa-3.png"
+        ]
+    },
+    {   
+        "type": "freelance",
+        "url": "https://truenorthmovers.com/",
+        "image": "tnm-thumbnail.png",
+        "title": "Moving Company",
+        "company": "True North Movers",
+        "technology": [
+            "html5",
+            "css3",
+            "wordpress",
+            "javascript"
+        ],
+        "description": "A WordPress website for a local moving company. Includes a live support chat, request a quote features, and much more.",
+        "contributions": [
+            "Created everything on site and managed updates until mid 2019"
+        ],
+        "displays": [
+            "tnm-1.png",
+            "tnm-2.png",
+            "tnm-3.png"
+        ]
+    },
+    {   
+        "type": "full-time",
+        "image": "le-thumbnail.jpg",
+        "title": "Real Estate / Booking",
+        "company": "Agency",
+        "technology": [
+            "html5",
+            "css3",
+            "wordpress"
+        ],
+        "description": "A WordPress website for a local rental business. Includes a system to display all of the client's properties, with booking information and links.",
+        "contributions": [
+            "Worked alongside our design team to ensure pixel-perfect design implementation",
+            "Handled the entirety of front-end development"
+        ],
+        "displays": [
+            "le-1.png",
+            "le-2.png",
+            "le-3.png"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "justincairns.ca",
+  "version": "1.0.0",
+  "description": "My swell Nuxt.js project",
+  "author": "Justin Cairns",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "body-scroll-lock": "^3.0.3",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.0",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2"
+  },
+  "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.0.1",
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
