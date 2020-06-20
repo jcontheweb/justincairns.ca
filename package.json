@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "body-scroll-lock": "^3.0.3",
+    "core-js": "2.6.10",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.0",
     "node-sass": "^4.14.1",
