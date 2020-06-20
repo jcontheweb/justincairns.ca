@@ -16,7 +16,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap', media: 'print', onload: "this.media='all'" },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css', media: 'print', onload: "this.media='all'" }
     ]
   },
@@ -47,12 +46,18 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    'nuxt-webfontloader',
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+  },
+  webfontloader: {
+    google: {
+      families: ['Work+Sans:400,500,700'] //Loads Lato font with weights 400 and 700
+    }
   },
   /*
   ** Build configuration
