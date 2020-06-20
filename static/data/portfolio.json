@@ -1,7 +1,7 @@
 [
     {      
         "type": "full-time",
-        "image": "sb-thumbnail.png?webp",
+        "image": "sb-thumbnail.png?lqip",
         "title": "Ticketing Platform",
         "company": "Agency",
         "technology": [
@@ -19,14 +19,14 @@
             "Performed accessibility audits to ensure WCAG were met"
         ],
         "displays": [
-            "sb-1.png?webp",
-            "sb-2.png?webp",
-            "sb-3.png?webp"
+            "sb-1.png",
+            "sb-2.png",
+            "sb-3.png"
         ]
     },
     {   
         "type": "full-time",
-        "image": "homa-thumbnail.jpg",
+        "image": "homa-thumbnail.jpg?lqip",
         "title": "Museum / Booking",
         "company": "Agency",
         "technology": [
@@ -44,15 +44,15 @@
             "Performed accessibility audits to ensure WCAG were met"
         ],
         "displays": [
-            "homa-1.png?webp",
-            "homa-2.png?webp",
-            "homa-3.png?webp"
+            "homa-1.png",
+            "homa-2.png",
+            "homa-3.png"
         ]
     },
     {   
         "type": "freelance",
         "url": "https://truenorthmovers.com/",
-        "image": "tnm-thumbnail.png?webp",
+        "image": "tnm-thumbnail.png?lqip",
         "title": "Moving Company",
         "company": "True North Movers",
         "technology": [
@@ -66,14 +66,14 @@
             "Created everything on site and managed updates until mid 2019"
         ],
         "displays": [
-            "tnm-1.png?webp",
-            "tnm-2.png?webp",
-            "tnm-3.png?webp"
+            "tnm-1.png",
+            "tnm-2.png",
+            "tnm-3.png"
         ]
     },
     {   
         "type": "full-time",
-        "image": "le-thumbnail.jpg",
+        "image": "le-thumbnail.jpg?lqip",
         "title": "Real Estate / Booking",
         "company": "Agency",
         "technology": [
@@ -87,9 +87,9 @@
             "Handled the entirety of front-end development"
         ],
         "displays": [
-            "le-1.png?webp",
-            "le-2.png?webp",
-            "le-3.png?webp"
+            "le-1.png",
+            "le-2.png",
+            "le-3.png"
         ]
     }
 ]

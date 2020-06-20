@@ -22,6 +22,12 @@
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.0.1",
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "lqip-loader": "^2.2.0",
+    "responsive-loader": "^1.2.0",
+    "sharp": "^0.25.4",
+    "sqip-loader": "^1.0.0"
   }
 }
