@@ -1,7 +1,7 @@
 [
     {      
         "type": "full-time",
-        "image": "sb-thumbnail.png?lqip",
+        "image": "sb-thumbnail.webp",
         "title": "Ticketing Platform",
         "company": "Agency",
         "technology": [
@@ -26,7 +26,7 @@
     },
     {   
         "type": "full-time",
-        "image": "homa-thumbnail.jpg?lqip",
+        "image": "homa-thumbnail.webp",
         "title": "Museum / Booking",
         "company": "Agency",
         "technology": [
@@ -52,7 +52,7 @@
     {   
         "type": "freelance",
         "url": "https://truenorthmovers.com/",
-        "image": "tnm-thumbnail.png?lqip",
+        "image": "tnm-thumbnail.webp",
         "title": "Moving Company",
         "company": "True North Movers",
         "technology": [
@@ -73,7 +73,7 @@
     },
     {   
         "type": "full-time",
-        "image": "le-thumbnail.jpg?lqip",
+        "image": "le-thumbnail.webp",
         "title": "Real Estate / Booking",
         "company": "Agency",
         "technology": [
