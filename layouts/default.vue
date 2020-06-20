@@ -11,12 +11,10 @@
 </template>
 
 <script>
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 export default {
   components: {
-    Footer,
-    Header
+    Footer: () => import("~/components/Footer"),
+    Header: () => import("~/components/Header")
   }
 };
 </script>

@@ -17,8 +17,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css', media: 'print', onload: "this.media='all'" },
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-      { rel: 'preconnect', href: 'https://fonts.gstatic.com' }
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com', crossorigin: 'true' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'true' }
     ]
   },
   /*
