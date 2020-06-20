@@ -9,10 +9,9 @@
 </template>
 
 <script>
-import NavigationItem from "../components/NavigationItem";
 export default {
   components: {
-    NavigationItem
+    NavigationItem: () => import("../components/NavigationItem")
   }
 };
 </script>

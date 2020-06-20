@@ -18,10 +18,11 @@
 </template>
 
 <script>
-import SvgChevronDown from "~/components/Svg/SvgChevronDown";
-import SvgChevronUp from "~/components/Svg/SvgChevronUp";
 export default {
-  components: { SvgChevronUp, SvgChevronDown },
+  components: {
+    SvgChevronUp: () => import("~/components/Svg/SvgChevronDown"),
+    SvgChevronDown: () => import("~/components/Svg/SvgChevronUp")
+  },
   data: () => ({ expanded: true })
 };
 </script>

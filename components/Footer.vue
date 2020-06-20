@@ -5,7 +5,7 @@
       <p class="sm:mt-1">© 2020 - All rights reserved</p>
     </div>
     <div class="mt-4 text-center sm:mt-0">
-      <a class="ml-4 text-lg text-gray-700 hover:text-gray-900 hover:underline" href="">Github</a>
+      <a class="ml-4 text-lg text-gray-700 hover:text-gray-900 hover:underline" href="https://github.com/jcontheweb" target="__blank">Github</a>
       <a class="ml-4 text-lg text-gray-700 hover:text-gray-900 hover:underline" href="https://www.linkedin.com/in/justin-cairns-9ba580177/" target="__blank">LinkedIn</a>
     </div>
   </footer>

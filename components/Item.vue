@@ -21,8 +21,13 @@
       <button @click="close" class="absolute top-0 right-0 m-4 hidden lg:block">
         <SvgClose class="text-gray-200 hover:text-gray-100" />
       </button>
-      <div @click.stop class="bg-white w-full h-full flex-col lg:flex-row flex overflow-hidden lg:rounded-lg">
-        <div class="flex-1 order-last relative overflow-auto p-4 sm:p-8 pb-24 lg:pb-8 overflow-x-hidden">
+      <div
+        @click.stop
+        class="bg-white w-full h-full flex-col lg:flex-row flex overflow-hidden lg:rounded-lg"
+      >
+        <div
+          class="flex-1 order-last relative overflow-auto p-4 sm:p-8 pb-24 lg:pb-8 overflow-x-hidden"
+        >
           <button class="fixed top-0 right-0 m-4 lg:hidden" @click="close">
             <SvgClose class="text-gray-700 hover:text-gray-800" />
           </button>
@@ -51,7 +56,11 @@
           <div class="mt-8">
             <p class="font-medium">My Contributions</p>
             <ul class="list-disc pl-4">
-              <li class="leading-snug text-gray-700 text-sm" v-for="(contribution, index) in contributions" :key="index">{{ contribution }}</li>
+              <li
+                class="leading-snug text-gray-700 text-sm"
+                v-for="(contribution, index) in contributions"
+                :key="index"
+              >{{ contribution }}</li>
             </ul>
           </div>
           <div class="mt-8">
@@ -83,7 +92,11 @@
           <div class="mt-8">
             <p class="font-bold text-xl">My Contributions</p>
             <ul class="list-disc">
-              <li class="leading-snug text-gray-900 text-sm font-medium" v-for="(contribution, index) in contributions" :key="index">{{ contribution }}</li>
+              <li
+                class="leading-snug text-gray-900 text-sm font-medium"
+                v-for="(contribution, index) in contributions"
+                :key="index"
+              >{{ contribution }}</li>
             </ul>
           </div>
           <div class="mt-8">
@@ -105,14 +118,12 @@
 
 <script>
 import { disableBodyScroll, clearAllBodyScrollLocks } from "body-scroll-lock";
-import ModalAccordion from "~/components/ModalAccordion";
-import SvgClose from "~/components/Svg/SvgClose";
 
 export default {
   props: {
     type: {
       type: String,
-      required: true,
+      required: true
     },
     image: {
       type: String,
@@ -143,11 +154,14 @@ export default {
       required: false
     },
     url: {
-      type: String, 
+      type: String
     }
   },
   data: () => ({ showing: false }),
-  components: { ModalAccordion, SvgClose },
+  components: {
+    ModalAccordion: () => import("~/components/ModalAccordion"),
+    SvgClose: () => import("~/components/Svg/SvgClose")
+  },
   methods: {
     open() {
       this.showing = true;

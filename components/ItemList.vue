@@ -18,10 +18,9 @@
 
 <script>
 import items from "~/static/data/portfolio.json"
-import Item from "~/components/Item.vue";
 export default {
   components: {
-    Item
+    Item: () => import("~/components/Item.vue")
   },
   data: () => ({ items })
 };
