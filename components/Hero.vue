@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-bold text-2xl sm:text-4xl lg:text-5xl leading-tight">
+    <h1 class="text-2xl font-bold leading-tight sm:text-4xl lg:text-5xl">
       I create websites that
       <br />
       <span class="text-green-500">actualize your idea</span>.
@@ -14,10 +14,10 @@
       >I'm currently available for freelance & contract work. I'll also be considering full-time remote position offers from within Canada & UK.</p>
     </div>
     <div class="mt-8">
-      <span class="text-xl leading-none mr-4">Have an idea? 💡</span>
+      <span class="mr-4 text-xl leading-none">Have an idea? 💡</span>
       <a
-        href="mailto:contact@justincairns.ca"
-        class="chat inline-block relative text-green-500 font-medium text-xl sm:text-2xl leading-none"
+        href="mailto:justincairnsuk@gmail.com"
+        class="relative inline-block text-xl font-medium leading-none text-green-500 chat sm:text-2xl"
       >Let's chat</a>
     </div>
   </div>
