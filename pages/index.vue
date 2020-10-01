@@ -1,7 +1,14 @@
 <template>
   <div>
-    <Hero />
-    <ItemList />
+    <!-- <Hero />
+    <ItemList /> -->
+    <Modal>
+      <form @submit.prevent="create">
+        <label for="">Company name</label>
+        <input type="text">
+        <button>Create</button>
+      </form>
+    </Modal>
   </div>
 </template>
 
